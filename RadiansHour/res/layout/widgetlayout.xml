@@ -5,17 +5,12 @@
     android:layout_height="wrap_content"
     android:layout_margin="8dip">
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/radians" />
-
     <AnalogClock
         android:id="@+id/analogClock1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:dial="@drawable/radians"
+        android:hand_minute="@drawable/minutes"
+        android:hand_hour="@drawable/hour"/>
 
 </RelativeLayout> 
